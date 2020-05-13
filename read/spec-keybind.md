@@ -18,17 +18,17 @@ has_children: true
 
 | 組合鍵 | 功能 |
 | ---: | :--- |
-| `ctrl + shift + p` | 開啟一個Panel，提供選項，選擇執行 lite 提供的功能 |
+| `ctrl + shift + p` | 開啟一個Panel，選擇執行 lite 提供的功能 |
 | `ctrl + p` | 開啟目前專案路徑底下的檔案 |
 | `ctrl + o` | 開啟舊檔 |
-|| |
+| | |
 | `ctrl + n` | 開啟新檔 |
 | `ctrl + s` | 儲存檔案 |
 | `ctrl + shift + s` | 另存新檔 |
 | `ctrl + w` | 關閉目前編輯區域視窗 |
 | `ctrl + escape` | 關閉 lite (自設按鍵綁定) |
 | `ctrl + tab` | 切換 tabpage |
-|  ||
+| | |
 | `ctrl + l` | 選取該行 (重複按下，會向下選取多行) |
 | `ctrl + a` | 全選 |
 | `ctrl + x` | 剪下 |
@@ -40,7 +40,7 @@ has_children: true
 | `shift + tab` | 反縮格 |
 | `ctrl + j` | 合併行 |
 | `ctrl + /` | 註解或反註解 |
-|  ||
+| | |
 | `ctrl + f` | 目前檔案找尋 |
 | `F3` | 執行最近一次的找尋 |
 | `ctrl + r` | 目前檔案找尋，接著取代 |

@@ -11,6 +11,7 @@
 ## * https://stedolan.github.io/jq/manual/
 ## curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '.'
 ## curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '..|.browser_download_url?'
+## curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '..|.browser_download_url?' | grep releases | cut -d '"' -f 2
 ## curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '.assets[0].browser_download_url'
 ## curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '.assets[0].browser_download_url' | cut -d '"' -f 2
 ##

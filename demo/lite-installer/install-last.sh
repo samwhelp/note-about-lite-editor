@@ -27,6 +27,7 @@ THE_LITE_DOWNLOAD_URL=$(curl -s https://api.github.com/repos/rxi/lite/releases/l
 THE_APP_DIR_PATH="$HOME/app"
 THE_BIN_DIR_PATH="$HOME/bin"
 THE_LITE_DIR_PATH="$THE_APP_DIR_PATH/lite"
+THE_LITE_APP_FILE_PATH="$HOME/.local/share/applications/lite.desktop"
 
 
 mkdir -p "$THE_APP_DIR_PATH"
@@ -45,4 +46,24 @@ mkdir -p "$THE_BIN_DIR_PATH"
 ln -sf "$(pwd)/lite" "$THE_BIN_DIR_PATH/lite"
 
 ##tree "$THE_LITE_DIR_PATH"
+
+cat > "$THE_LITE_APP_FILE_PATH" << EOF
+[Desktop Entry]
+Type=Application
+Exec=lite
+TryExec=lite
+Icon=text-editor
+Categories=Utility;TextEditor;Development;
+Keywords=editor;
+StartupNotify=true
+MimeType=inode/directory;text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+
+Name=Lite Editor
+GenericName=Text Editor
+Comment=A lightweight text editor written in Lua
+
+Name[zh_TW]=Lite 文字編輯器
+GenericName[zh_TW]=Text Editor
+Comment[zh_TW]=Lite 文字編輯器
+EOF
 

@@ -12,17 +12,22 @@ require "user.colors.gruvbox_dark"
 -- key binding:
 -- keymap.add { ["ctrl+escape"] = "core:quit" }
 
-keymap.add { ["ctrl+escape"] = "core:quit" }
+keymap.add {
 
-keymap.add { ["ctrl+shift+i"] = "root:split-up" }
-keymap.add { ["ctrl+shift+u"] = "root:split-down" }
-keymap.add { ["ctrl+shift+y"] = "root:split-left" }
-keymap.add { ["ctrl+shift+o"] = "root:split-right" }
+	["ctrl+escape"] = "core:quit",
+	
+	["ctrl+shift+i"] = "root:split-up",
+	["ctrl+shift+u"] = "root:split-down",
+	["ctrl+shift+y"] = "root:split-left",
+	["ctrl+shift+o"] = "root:split-right",
 
-keymap.add { ["alt+shift+i"] = "root:switch-to-up" }
-keymap.add { ["alt+shift+u"] = "root:switch-to-down" }
-keymap.add { ["alt+shift+y"] = "root:switch-to-left" }
-keymap.add { ["alt+shift+o"] = "root:switch-to-right" }
+	["alt+shift+i"] = "root:switch-to-up",
+	["alt+shift+u"] = "root:switch-to-down",
+	["alt+shift+y"] = "root:switch-to-left",
+	["alt+shift+o"] = "root:switch-to-right",
+
+}
+
 
 -- ## Font
 -- ### Noto

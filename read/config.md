@@ -8,5 +8,5 @@ has_children: true
 
 | 設定檔 | 說明 |
 | --- | --- |
-| [lite/data/user/init.lua](https://github.com/samwhelp/note-about-lite-editor/blob/master/demo/config/user/init.lua) | 編輯這個檔，編輯自己的設定 |
+| [lite/data/user/init.lua](https://github.com/rxi/lite/blob/master/data/user/init.lua) | 編輯這個檔，[編輯成自己的設定](https://github.com/samwhelp/note-about-lite-editor/blob/master/demo/config/user/init.lua) |
 

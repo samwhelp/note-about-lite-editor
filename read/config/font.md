@@ -19,7 +19,7 @@ style.code_font = renderer.font.load(EXEDIR .. "/data/fonts/monospace.ttf", 13.5
 
 ## 如何設定顯示中文
 
-編輯「[lite/data/user/init.lua](https://github.com/samwhelp/note-about-lite-editor/blob/master/demo/config/user/init.lua)」這個檔案，加入如下的程式碼。
+編輯「[lite/data/user/init.lua](https://github.com/rxi/lite/blob/master/data/user/init.lua)」這個檔案，[加入如下的程式碼](https://github.com/samwhelp/note-about-lite-editor/blob/master/demo/config/user/init.lua)。
 
 ``` lua
 style.font = renderer.font.load("/usr/local/share/fonts/Noto/NotoSansCJKtc-Regular.otf", 14 * SCALE)
@@ -27,7 +27,7 @@ style.big_font = renderer.font.load("/usr/local/share/fonts/Noto/NotoSansCJKtc-R
 style.code_font = renderer.font.load("/usr/local/share/fonts/Noto/NotoSansMonoCJKtc-Regular.otf", 16 * SCALE)
 ```
 
-> 上面的字型路徑安裝的，是因為我自己下載，請參考我的[安裝腳本](https://github.com/samwhelp/play-ubuntu-20.04-plan/tree/master/prototype-subject/font-wget/noto)
+> 上面的字型路徑，是因為我自己下載安裝的，請參考我的[安裝腳本](https://github.com/samwhelp/play-ubuntu-20.04-plan/tree/master/prototype-subject/font-wget/noto)
 
 
 ## 如何找到字型檔案路徑

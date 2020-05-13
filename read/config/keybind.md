@@ -20,7 +20,7 @@ keymap.add {
 }
 ```
 
-## 如何設定按鍵綁定
+## 如何設定新的按鍵綁定
 
 > 因為有些按鍵跟我在「[openbox](https://github.com/samwhelp/play-ubuntu-20.04-plan/blob/master/prototype/openbox/spec-keybind.md#window-tiling-move--corner)」的綁定相衝，所以做了點調整。
 
@@ -58,5 +58,29 @@ keymap.add {
 }
 ```
 
+## 如何覆寫舊有按鍵綁定
 
+若要覆寫舊有按鍵綁定，第二個參數要設為「true」。
 
+因為我要把舊有的按鍵「Unbind」，所以對應值只要設為空字串就可以了，
+
+可以寫成
+
+``` lua
+keymap.add ({ ["alt+return"] = "" }, true)
+keymap.add ({ ["alt+1"] = "" }, true)
+keymap.add ({ ["alt+2"] = "" }, true)
+```
+
+或是也可以寫成
+
+``` lua
+keymap.add ({
+
+	["alt+return"] = "",
+	["alt+1"] = "",
+	["alt+2"] = "",
+
+}, true)
+
+```

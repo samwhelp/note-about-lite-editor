@@ -14,8 +14,31 @@ require "user.colors.gruvbox_dark"
 
 keymap.add {
 
+	-- Unbind
+	["alt+return"] = "",
+
+	["alt+shift+j"] = "",
+	["alt+shift+l"] = "",
+	["alt+shift+i"] = "",
+	["alt+shift+k"] = "",
+	["alt+j"] = "",
+	["alt+l"] = "",
+	["alt+i"] = "",
+	["alt+k"] = "",
+
+	["alt+1"] = "",
+	["alt+2"] = "",
+	["alt+3"] = "",
+	["alt+4"] = "",
+	["alt+5"] = "",
+	["alt+6"] = "",
+	["alt+7"] = "",
+	["alt+8"] = "",
+	["alt+9"] = "",
+
+	-- Bind
 	["ctrl+escape"] = "core:quit",
-	
+
 	["ctrl+shift+i"] = "root:split-up",
 	["ctrl+shift+u"] = "root:split-down",
 	["ctrl+shift+y"] = "root:split-left",

@@ -12,7 +12,7 @@ require "user.colors.gruvbox_dark"
 -- key binding:
 -- keymap.add { ["ctrl+escape"] = "core:quit" }
 
-keymap.add {
+keymap.add ({
 
 	-- Unbind
 	["alt+return"] = "",
@@ -36,7 +36,7 @@ keymap.add {
 	["alt+8"] = "",
 	["alt+9"] = "",
 
-	-- Bind
+	-- New Bind
 	["ctrl+escape"] = "core:quit",
 
 	["ctrl+shift+i"] = "root:split-up",
@@ -49,7 +49,7 @@ keymap.add {
 	["alt+shift+y"] = "root:switch-to-left",
 	["alt+shift+o"] = "root:switch-to-right",
 
-}
+}, true)
 
 
 -- ## Font

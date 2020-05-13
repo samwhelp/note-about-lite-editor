@@ -21,7 +21,7 @@ has_children: true
 | `ctrl + shift + p` | 開啟一個Panel，提供選項，選擇執行 lite 提供的功能 |
 | `ctrl + p` | 開啟目前專案路徑底下的檔案 |
 | `ctrl + o` | 開啟舊檔 |
-|  **test** ||
+|  **test** |
 | `ctrl + n` | 開啟新檔 |
 | `ctrl + s` | 儲存檔案 |
 | `ctrl + shift + s` | 另存新檔 |

@@ -124,3 +124,55 @@ EOF
 > 若有安裝「[exo-open](http://manpages.ubuntu.com/manpages/focal/en/man1/exo-open.1.html)」，可以執行「`exo-open ~/.local/share/applications/lite.desktop`」確認是否正常運作。
 
 
+
+
+### 額外討論
+
+參考「[如何在Linux作業系統上以一行指令下載GitHub倉庫(Repository)上最新發佈的檔案？ | MagicLen](https://magiclen.org/linux-github-latest-release-download/)」這篇文章提到的概念，
+
+執行下面指令，顯示
+
+``` sh
+curl -s https://api.github.com/repos/rxi/lite/releases/latest | grep browser_download_url | cut -d '"' -f 4
+```
+
+顯示
+
+```
+https://github.com/rxi/lite/releases/download/v1.03/lite.zip
+```
+
+所以搭配「wget」和「[bash command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html)」，
+
+可以執行下面指令下載
+
+``` sh
+wget -c $(curl -s https://api.github.com/repos/rxi/lite/releases/latest | grep browser_download_url | cut -d '"' -f 4)
+```
+
+或是也可以使用[該篇文章](https://magiclen.org/linux-github-latest-release-download/)提到的方式
+
+``` sh
+curl -s https://api.github.com/repos/rxi/lite/releases/latest | grep browser_download_url | cut -d '"' -f 4 | wget -q -i -
+```
+
+另外也可以改搭配「[jq](http://manpages.ubuntu.com/manpages/focal/en/man1/jq.1.html)」來解析json。
+
+例如
+
+執行下面指令
+
+``` sh
+curl -s https://api.github.com/repos/rxi/lite/releases/latest | jq '..|.browser_download_url?' | grep releases | cut -d '"' -f 2
+```
+
+顯示
+
+```
+https://github.com/rxi/lite/releases/download/v1.03/lite.zip
+```
+
+以上的概念，只要將「[install.sh](https://github.com/samwhelp/note-about-lite-editor/tree/master/demo/lite-installer/install.sh)」稍微做點修改，
+就可以應用在「[install-last.sh](https://github.com/samwhelp/note-about-lite-editor/tree/master/demo/lite-installer/install-last.sh)」上了。
+
+

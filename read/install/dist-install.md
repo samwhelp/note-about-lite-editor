@@ -25,6 +25,8 @@ parent: 安裝
 
 以下步驟已經整理寫在上面的腳本，以下是說明。
 
+> 後續還有「[版本2](https://samwhelp.github.io/note-about-lite-editor/read/install/dist-install-v2.html)」。
+
 ## 安裝步驟
 
 ### 產生放置資料夾

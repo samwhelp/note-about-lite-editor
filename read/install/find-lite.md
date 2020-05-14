@@ -4,7 +4,8 @@ nav_order: 19
 parent: 安裝
 ---
 
-## list
+
+# find lite
 
 run
 

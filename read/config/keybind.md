@@ -4,6 +4,9 @@ nav_order: 22
 parent: 設定
 ---
 
+
+# 如何綁定按鍵
+
 ## 常用快速鍵
 
 常用快速鍵，請參考「[常用快速鍵](https://samwhelp.github.io/note-about-lite-editor/read/spec-keybind.html)」該頁。

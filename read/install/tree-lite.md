@@ -4,7 +4,8 @@ nav_order: 18
 parent: 安裝
 ---
 
-## tree
+
+# tree lite
 
 run
 

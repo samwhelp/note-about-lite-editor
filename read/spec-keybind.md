@@ -4,6 +4,9 @@ nav_order: 30
 has_children: true
 ---
 
+
+# 常用快速鍵
+
 ## 參考檔案
 
 可以參考「[lite/data/core/keymap.lua](https://github.com/rxi/lite/blob/master/data/core/keymap.lua#L86)」這個檔案，找到按鍵綁定的程式碼，

@@ -35,7 +35,7 @@ style.code_font = renderer.font.load("/usr/local/share/fonts/Noto/NotoSansMonoCJ
 
 可以使用「[fc-list](http://manpages.ubuntu.com/manpages/focal/en/man1/fc-list.1.html)」搭配「[grep](http://manpages.ubuntu.com/manpages/focal/en/man1/grep.1.html)」來找尋。
 
-> 其他相關的工具，請參考我之前的[紀錄](http://samwhelp.github.io/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
+> 其他相關的輔助工具，請參考我之前的[紀錄](http://samwhelp.github.io/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
 
 舉例，要找「Noto」相關的
 

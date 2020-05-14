@@ -158,7 +158,13 @@ curl -s https://api.github.com/repos/rxi/lite/releases/latest | grep browser_dow
 
 另外也可以改搭配「[jq](http://manpages.ubuntu.com/manpages/focal/en/man1/jq.1.html)」來解析json。
 
-例如
+執行下面指令，先安裝「Package: [jq](https://packages.ubuntu.com/focal/jq)」。
+
+``` sh
+sudo apt-get install jq
+```
+
+舉例
 
 執行下面指令
 

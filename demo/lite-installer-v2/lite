@@ -10,4 +10,4 @@ else
 	cd $(dirname "$THE_TARGET_PATH")
 fi
 
-exec lite.real $@ &
+exec lite.real "$@" &

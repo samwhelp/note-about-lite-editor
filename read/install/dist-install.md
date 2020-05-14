@@ -126,7 +126,7 @@ EOF
 
 
 
-### 額外討論
+## 額外討論
 
 參考「[如何在Linux作業系統上以一行指令下載GitHub倉庫(Repository)上最新發佈的檔案？ - MagicLen](https://magiclen.org/linux-github-latest-release-download/)」
 

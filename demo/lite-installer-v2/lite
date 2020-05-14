@@ -5,7 +5,7 @@
 THE_TARGET_PATH="$1"
 
 if [ -d "$THE_TARGET_PATH" ] ; then
-    cd "$THE_TARGET_PATH"
+	cd "$THE_TARGET_PATH"
 else
 	cd $(dirname "$THE_TARGET_PATH")
 fi

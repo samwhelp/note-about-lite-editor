@@ -21,3 +21,11 @@ has_children: true
 | [lite/data/core/style.lua](https://github.com/rxi/lite/blob/master/data/core/style.lua) | 可以找到**字型設定**的程式碼 |
 | [lite/data/core/config.lua](https://github.com/rxi/lite/blob/master/data/core/config.lua) | 可以找到**tab設定**的程式碼 |
 | [lite/data/core/keymap.lua](https://github.com/rxi/lite/blob/master/data/core/keymap.lua) | 可以找到**按鍵綁定**的程式碼 |
+
+
+## 資料夾
+
+| 路徑 | 說明 |
+| --- | --- |
+| [lite/data/user/colors](https://github.com/rxi/lite/tree/master/data/user/colors) | 可以到「[lite-colors](https://github.com/rxi/lite-colors)」找到更多的「Color Theme」 |
+| [/home/sam/app/lite/data/plugins](https://github.com/rxi/lite/tree/master/data/plugins) | 可以到「[lite-plugins](https://github.com/rxi/lite-plugins)」找到更多的「Plugin」 |

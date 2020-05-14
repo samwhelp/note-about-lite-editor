@@ -127,3 +127,54 @@ $nav-width: 264px;
 //lg: $content-width + $nav-width,
 //xl: 1400px
 //);
+
+
+
+
+// ## Add
+.page-content h1 {
+	font-size: 32px;
+}
+
+.page-content h2 {
+	/*color: green;*/
+	font-size: 28px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-left: 1px dotted #bdbdbd;
+	/*border-top: 1px dotted #bdbdbd;*/
+	/*border-bottom: 1px dotted #bdbdbd;*/
+	/*border-right: 1px dotted #bdbdbd;*/
+}
+
+.page-content h3 {
+	color: grey;
+	/*color: #757575;*/
+	font-size: 24px;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	/*border-bottom: 1px dashed #bdbdbd;*/
+	border-bottom: 1px dotted #bdbdbd;
+}
+
+.page-content h4 {
+	font-size: 22px;
+	padding-left: 14px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page-content h5 {
+	font-size: 20px;
+	padding-left: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page-content h6 {
+	font-size: 18px;
+	padding-left: 18px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}

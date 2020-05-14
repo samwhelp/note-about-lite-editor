@@ -130,7 +130,7 @@ EOF
 
 參考「[如何在Linux作業系統上以一行指令下載GitHub倉庫(Repository)上最新發佈的檔案？ - MagicLen](https://magiclen.org/linux-github-latest-release-download/)」這篇文章提到的概念，
 
-執行下面指令，顯示
+執行下面指令
 
 ``` sh
 curl -s https://api.github.com/repos/rxi/lite/releases/latest | grep browser_download_url | cut -d '"' -f 4

@@ -11,3 +11,4 @@
 * https://blog.gtwang.org/programming/c-cpp-tutorial-argc-argv-read-command-line-arguments/
 * https://blog.gtwang.org/programming/gcc-comipler-basic-tutorial-examples/
 * https://blog.gtwang.org/programming/howto-create-library-using-gcc/
+* https://github.com/samwhelp/demo-build-c-case/tree/master/demo/concept_basic/option_c

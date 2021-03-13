@@ -24,3 +24,9 @@
 ### luaopen_system
 
 * https://github.com/rxi/lite/blob/master/src/api/system.c#L404
+
+
+### luaL_requiref
+
+* https://github.com/lua/lua/blob/master/lauxlib.c#L967
+* https://github.com/lua/lua/blob/master/lauxlib.h#L117

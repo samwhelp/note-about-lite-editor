@@ -3,10 +3,9 @@
 -- https://github.com/rxi/lite/blob/master/data/core/init.lua#L77
 -- https://github.com/rxi/lite/blob/master/data/core/init.lua#L451
 
+-- require('system')
 
 core = {}
-
-require('system')
 
 function core.init()
 	print('core.init')
